@@ -4,7 +4,6 @@ export default {
   repo: "jinmao88/vben3-doc",
   ignoreDeadLinks: true,
   lastUpdated: true,
-  base: "/public/",
   outDir: "../public",
   themeConfig: {
     logo: "/asset/logo.png",
