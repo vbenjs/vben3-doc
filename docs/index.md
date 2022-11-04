@@ -1,18 +1,9 @@
----
-layout: home
+# Vben Admin 3
 
-hero:
-name: VitePress
-text: Vite & Vue powered static site generator.
-tagline: Lorem ipsum...
-image:
-src: /logo.png
-alt: VitePress
-actions:
-- theme: brand
-text: Get Started
-link: /guide/what-is-vitepress
-- theme: alt
-text: View on GitHub
-link: https://github.com/vuejs/vitepress
----
+## vue3+vite+ts 后台管理系统
+### monorepo模式+pnpm
++ 临时仓库地址：[https://github.com/jinmao88/vben3](https://github.com/jinmao88/vben3)
++ KOOK：[https://kook.top/6ZPFKi](https://kook.top/6ZPFKi)
++ QQ官方群：569291866
++ 参与开发 `联系QQ：63992745` 或者 `PR`
+
