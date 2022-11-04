@@ -1,0 +1,16 @@
+{
+  "name": "vben3-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1",
+    "vitepress": "1.0.0-alpha.27",
+    "vue": "^3.2.41"
+  }
+}
