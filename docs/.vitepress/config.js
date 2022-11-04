@@ -1,6 +1,11 @@
 export default {
-  title: "Vben-Admin3",
-  description: "Just playing around.",
+  title: "Vben Admin 3",
+  description: "Vben Admin 3 Doc",
+  repo: "jinmao88/vben3-doc",
+  ignoreDeadLinks: true,
+  lastUpdated: true,
+  outDir: "../public",
+
   themeConfig: {
     logo: "/asset/logo.png",
     nav: [
@@ -36,5 +41,12 @@ export default {
         ],
       },
     ],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/jinmao88/vben3" },
+    ],
+    editLink: {
+      pattern: "https://github.com/jinmao88/vben3-doc/edit/master/docs/:path",
+      text: "编辑此页",
+    },
   },
 };

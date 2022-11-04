@@ -6,7 +6,11 @@
 2. KOOK:[https://kook.top/6ZPFKi](https://kook.top/6ZPFKi)
 3. QQ官方群：569291866
 
-
-
+### 安装
+```
+git clone https://github.com/jinmao88/vben3-doc
+pnpm i 
+pnpm dev
+```
 
 欢迎提PR
