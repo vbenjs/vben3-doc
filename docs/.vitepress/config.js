@@ -16,6 +16,13 @@ export default {
         ],
       },
       {
+        text: "vbenComponent",
+        items: [
+          { text: "介绍", link: "/component/introduction" },
+          { text: "Fetch扩展", link: "/component/fetch" },
+        ],
+      },
+      {
         text: "社区",
         items: [
           {
@@ -37,6 +44,13 @@ export default {
         items: [
           { text: "介绍", link: "/guide/introduction" },
           { text: "项目结构", link: "/guide/directory" },
+        ],
+      },
+      {
+        text: "vbenComponent",
+        items: [
+          { text: "介绍", link: "/component/introduction" },
+          { text: "Fetch扩展", link: "/component/fetch" },
         ],
       },
     ],
