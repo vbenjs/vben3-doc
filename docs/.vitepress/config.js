@@ -1,6 +1,7 @@
 export default {
   title: "Vben Admin 3",
   description: "Vben Admin 3 Doc",
+  base:"/vben3-doc",
   repo: "jinmao88/vben3-doc",
   ignoreDeadLinks: true,
   lastUpdated: true,
