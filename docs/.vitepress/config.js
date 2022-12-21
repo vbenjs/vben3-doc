@@ -21,12 +21,7 @@ const nav = [
         link: "https://kook.top/6ZPFKi",
       },
       {
-        text: "QQ群  569291866",
-        link: "",
-      },
-      {
-        text: "个人  63992745",
-        link: "",
+        text: "QQ群2  4286109",
       },
     ],
   },
@@ -50,6 +45,7 @@ const sidebar = [
 function getPackagesIntro() {
   return [
     "vbenComponent",
+    "components",
     "layouts",
     "locale",
     "constants",
@@ -68,10 +64,10 @@ function getPackagesIntro() {
 }
 
 export default {
-  title: "Vben Admin 3",
-  description: "Vben Admin 3 Doc",
+  title: "vben Admin 3",
+  description: "vben Admin 3 Doc",
   base: "/vben3-doc",
-  repo: "jinmao88/vben3-doc",
+  repo: "vbenjs/vben3-doc",
   ignoreDeadLinks: true,
   lastUpdated: true,
   outDir: "../public",
@@ -79,9 +75,7 @@ export default {
     logo: "/asset/logo.png",
     nav,
     sidebar,
-    socialLinks: [
-      { icon: "github", link: "https://github.com/jinmao88/vben3" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/vbenjs/vben3" }],
     editLink: {
       pattern: "https://github.com/vbenjs/vben3-doc/edit/master/docs/:path",
       text: "编辑此页",
