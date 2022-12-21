@@ -1,6 +1,6 @@
 # vbenComponent
 
-> 由于组件库越来越多，并且每个人希望使用的组件库不同，所以推出VbenComponent   
+> 由于各种各样的组件库越来越多，并且每个人希望使用的组件库不同，所以推出VbenComponent   
 > Table组件使用vxe-table  
 > 不同组件库的组件参数，处理逻辑，事件可能不同，会有兼容问题，但是处理起来并不难
 ### 原理
@@ -18,6 +18,7 @@ import {NButton} from 'naive-ui'
 // 引入antdv Card
 import {Card} from 'ant-design-vue'
 
+import { initVbenComponent } from '@vben/vbencomponents'
 // 将组件注册到vbenComponent
   initVbenComponent(app, {
     Button: NButton,
@@ -42,7 +43,7 @@ const Button = maps.get('Button')
   ></Button>
 </template>
 ```
-组件使用
+VbenButton的使用
 
 ```vue
 <script lang="ts" setup >

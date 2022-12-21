@@ -9,8 +9,8 @@
     "docs:serve": "vitepress serve docs"
   },
   "dependencies": {
-    "prettier": "^2.7.1",
-    "vitepress": "1.0.0-alpha.27",
-    "vue": "^3.2.41"
+    "prettier": "^2.8.1",
+    "vitepress": "1.0.0-alpha.32",
+    "vue": "^3.2.45"
   }
 }
