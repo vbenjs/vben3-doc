@@ -4,6 +4,8 @@ const nav = [
     items: [
       { text: "介绍", link: "/guide/introduction" },
       { text: "项目结构", link: "/guide/directory" },
+      { text: "路由", link: "/guide/router" },
+      { text: "配置", link: "/guide/config" },
     ],
   },
   {
@@ -33,6 +35,8 @@ const sidebar = [
     items: [
       { text: "介绍", link: "/guide/introduction" },
       { text: "项目结构", link: "/guide/directory" },
+      { text: "路由", link: "/guide/router" },
+      { text: "配置", link: "/guide/config" },
     ],
   },
   {
