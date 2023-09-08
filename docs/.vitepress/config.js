@@ -9,7 +9,7 @@ const nav = [
     ],
   },
   {
-    text: "vbenComponent",
+    text: "组件",
     items: [
       { text: "介绍", link: "/packages/vbenComponent/introduction" },
       { text: "Fetch扩展", link: "/packages/vbenComponent/fetch" },
@@ -84,5 +84,8 @@ export default {
       pattern: "https://github.com/vbenjs/vben3-doc/edit/master/docs/:path",
       text: "编辑此页",
     },
+    footer: {
+      copyright: `MIT License Copyright ©️ 2023-present Vben`
+    }
   },
 };
