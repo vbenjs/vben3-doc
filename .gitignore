@@ -1,4 +1,5 @@
-./node_modules
-./.github
-./.idea
-./public
+public
+node_modules
+.github
+.idea
+.history
