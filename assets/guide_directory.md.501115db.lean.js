@@ -1,0 +1,1 @@
+import{_ as e,o,c as i,a as l}from"./app.6c71d35b.js";const h=JSON.parse('{"title":"目录结构","description":"","frontmatter":{},"headers":[],"relativePath":"guide/directory.md","lastUpdated":1694473171000}'),c={name:"guide/directory.md"},d=l("",3),t=[d];function s(a,n,r,p,u,_){return o(),i("div",null,t)}const v=e(c,[["render",s]]);export{h as __pageData,v as default};
