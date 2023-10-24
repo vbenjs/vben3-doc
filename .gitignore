@@ -3,3 +3,4 @@ node_modules
 .github
 .idea
 .history
+.docs/.vitepress/cache
