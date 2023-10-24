@@ -34,6 +34,7 @@ const sidebar = [
     text: "指南",
     items: [
       { text: "介绍", link: "/guide/introduction" },
+      { text: "构建 & 部署", link: "/guide/deploy" },
       { text: "项目结构", link: "/guide/directory" },
       { text: "路由", link: "/guide/router" },
       { text: "配置", link: "/guide/config" },
@@ -68,9 +69,9 @@ function getPackagesIntro() {
 }
 
 export default {
-  title: "vben Admin 3",
-  description: "vben Admin 3 Doc",
-  base: "/vben3-doc",
+  title: "Vben Admin 3",
+  description: "Vben Admin 3 Doc",
+  base: "/vben3-doc/",
   repo: "vbenjs/vben3-doc",
   ignoreDeadLinks: true,
   lastUpdated: true,
