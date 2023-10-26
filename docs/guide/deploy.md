@@ -25,7 +25,7 @@ npm config set registry https://registry.npmmirror.com
 npm i -g pnpm
 ```
 
-如果您已经配置过其它镜像源，只想本次安装 pnpm 的时候使用淘宝的镜像源来全局安装 pnpm，则可以使用以下命令，该命令不会改变您默认的 npm 配置：
+如果您已经配置过其它镜像源，只想本次安装的时候使用淘宝的镜像源来全局安装 pnpm，则可以使用以下命令，该命令不会改变您默认的 npm 配置：
 
 ```bash
 npm install --registry=http://registry.npmmirror.com -g pnpm
