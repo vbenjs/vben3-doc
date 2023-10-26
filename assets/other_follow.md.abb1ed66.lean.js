@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,a}from"./app.3a206e79.js";const f=JSON.parse('{"title":"加入我们","description":"","frontmatter":{},"headers":[],"relativePath":"other/follow.md","lastUpdated":1698302175000}'),o={name:"other/follow.md"},n=a("",4),s=[n];function l(i,_,h,c,p,b){return t(),r("div",null,s)}const m=e(o,[["render",l]]);export{f as __pageData,m as default};
