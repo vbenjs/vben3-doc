@@ -34,16 +34,25 @@ const sidebar = [
     text: "指南",
     items: [
       { text: "介绍", link: "/guide/introduction" },
-      { text: "构建 & 部署", link: "/guide/deploy" },
+      { text: "快速了解", link: "/guide/quick-understanding" },
       { text: "项目结构", link: "/guide/directory" },
-      { text: "路由", link: "/guide/router" },
+      { text: "构建 & 部署", link: "/guide/deploy" },
       { text: "配置", link: "/guide/config" },
+      { text: "路由", link: "/guide/router" },
+      { text: "更新日志", link: "/guide/uplog" },
     ],
   },
   {
     text: "本地依赖库",
     collapsible: true,
     items: getPackagesIntro(),
+  },
+  {
+    text: "其它",
+    items: [
+      { text: "常见问题", link: "/other/faq" },
+      { text: "加入我们", link: "/other/follow" },
+    ],
   },
 ];
 
