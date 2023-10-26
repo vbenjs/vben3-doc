@@ -16,9 +16,29 @@
 NodeJs 推荐 16.x 版本以上，如果您的本地需要安装不同版本的 NodeJs，请考虑使用 nvm 来管理。
 :::
 
-## 知识准备
+## 文档
 
-本项目需要一定前端基础知识，请确保掌握 Vue 的基础知识，以便能处理一些常见的问题。建议在开发前了解/学习以下内容，这对项目理解和开发非常有帮助:
+- 中文文档地址为 [vben3](https://github.com/vbenjs/vben3-doc)，采用 Vitepress 开发。如发现文档有误，欢迎提 pr 帮助我们改进。
+- 英文文档暂时没有时间来写，欢迎有时间的同学来帮忙写英文文档。
+
+### 本地运行文档
+
+如需本地运行文档，请拉取文档仓库源代码到本地。
+
+```bash
+# vben3 文档源码
+git clone https://github.com/vbenjs/vben3-doc
+
+# 安装依赖
+pnpm i
+
+# 运行文档
+pnpm docs:dev
+```
+
+## 需要掌握的基础知识
+
+本项目需要一定前端基础知识，请确保掌握 Vue 的基础知识，以便能处理一些常见的问题。建议在开发前先学一下以下内容，提前了解和学习这些知识，会对项目理解非常有帮助:
 
 - [Vue3 文档](https://vuejs.org/)
 - [Vue-RFCS](https://github.com/vuejs/rfcs)
@@ -32,7 +52,7 @@ NodeJs 推荐 16.x 版本以上，如果您的本地需要安装不同版本的 
 
 ## vite 插件推荐
 
-如果这些插件对你有帮助，可以给一个 star 支持下！
+如果这些插件对你有帮助，可以给一个 star 支持下
 
 - [vite-plugin-mock](https://github.com/vbenjs/vite-plugin-mock) - 用于本地及开发环境数据 `mock`
 - [vite-plugin-html](https://github.com/vbenjs/vite-plugin-html) - 用于 `html` 模版转换，可以在`html`文件内进行书写模版语法
@@ -42,20 +62,21 @@ NodeJs 推荐 16.x 版本以上，如果您的本地需要安装不同版本的 
 - [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression) - 用于打包输出`.gz`|`.br`文件
 - [vite-plugin-svg-icons](https://github.com/vbenjs/vite-plugin-svg-icons) - 快速生成 `svg sprite`
 
-## 贡献文档
+## 浏览器支持
 
-- 中文文档地址为 [vben3](https://github.com/vbenjs/vben3-doc)，采用 Vitepress 开发。如发现文档有误，欢迎提 pr 帮助我们改进。
-- 英文文档暂时没有时间来写，欢迎有时间的小伙伴来帮忙补充英文文档！👉 [加入我们](/other/follow)。
+**本地开发** 推荐使用最新版的 `Chrome` 浏览器，**不支持**`Chrome 80`以下版本。
 
-如需本地运行文档，请拉取文档仓库源代码到本地并启动。
+**生产环境** 支持现代浏览器，不支持 IE。
 
-```bash
-# vben3 文档源码
-git clone https://github.com/vbenjs/vben3-doc
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png" alt="IE" width="24px" height="24px"  />](http://godban.github.io/browsers-support-badges/)IE | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Safari |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                not support                                                                                                                |                                                                                          last 2 versions                                                                                          |                                                                                               last 2 versions                                                                                                |                                                                                             last 2 versions                                                                                              |                                                                                             last 2 versions                                                                                              |
 
-# 安装依赖
-pnpm i
+## 如何加入我们
 
-# 运行文档
-pnpm docs:dev
-```
+- [Vben3](https://github.com/vbenjs/vben3) 还在持续更新中，本项目欢迎您的参与，共同维护，逐步完善，将项目做得更强。同时整个项目本着一切免费的原则，原则上不会收取任何费用及版权，可以放心使用。
+- 如果你想加入我们，可以多提供一些好的建议或者提交 pr，我们会根据你的活跃度邀请你加入。
++ 项目仓库地址：[https://github.com/vbenjs/vben3](https://github.com/vbenjs/vben3)
++ 文档仓库地址：[https://github.com/vbenjs/vben3-doc](https://github.com/vbenjs/vben3-doc)
++ KOOK：[https://kook.top/6ZPFKi](https://kook.top/6ZPFKi)
++ Vben3 QQ群（新）：4286109
