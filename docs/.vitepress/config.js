@@ -86,7 +86,7 @@ export default {
   lastUpdated: true,
   outDir: "../public",
   themeConfig: {
-    logo: "/asset/logo.png",
+    logo: "/logo.png",
     nav,
     sidebar,
     socialLinks: [{ icon: "github", link: "https://github.com/vbenjs/vben3" }],
