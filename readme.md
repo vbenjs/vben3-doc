@@ -10,5 +10,5 @@ $ git clone git@github.com:vbenjs/vben3-doc.git
 $ pnpm install
 
 # 启动开发服务器
-$ pnpm run docs:serve
+$ pnpm run docs:dev
 ```
