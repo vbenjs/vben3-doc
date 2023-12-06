@@ -1,6 +1,7 @@
-# public
+/public
 node_modules
 .github
 .idea
 .history
+.vscode
 docs/.vitepress/cache
