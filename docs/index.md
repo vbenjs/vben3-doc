@@ -6,7 +6,7 @@ hero:
   text: 一个开箱即用前端框架
   tagline: 采用Monorepo，分离组件样式逻辑，更通用的公共逻辑，降低组件开发的耦合。
   image:
-    src: /logo.png
+    src: /vben.svg
     alt: vben logo
   actions:
     - theme: brand
@@ -17,16 +17,16 @@ hero:
       link: https://vben.mufei88.com/
 features:
   - icon: 🔥
-    title: 最新技术栈
+    title: 最新技术栈 (Latest)
     details: 基于Vue3,Vite,TypeScript等最新技术栈开发。
   - icon: 📦
-    title: 组件封装
+    title: 组件封装 (Modules)
     details: 对日常使用频率较高组件二次封装，快速开发。
   - icon: 🔑
-    title: 权限管理
+    title: 权限管理 (Permissions)
     details: 完善的前后端权限管理方案。
-  - icon: 🚀
-    title: 快速热重载
+  - icon: ⚡
+    title: 快速热重载 (HMR)
     details: 采用Vite快速热重载技术，提升开发体验。
 ---
 
