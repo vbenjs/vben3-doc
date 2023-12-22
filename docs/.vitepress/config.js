@@ -19,11 +19,14 @@ const nav = [
     text: "社区",
     items: [
       {
-        text: "KOOK",
-        link: "https://kook.top/6ZPFKi",
+        text: "QQ频道",
+        link: "https://pd.qq.com/s/ahgh62mni",
       },
       {
-        text: "QQ群2  4286109",
+        text: "QQ群1 4286109",
+      },
+        {
+        text: "QQ群2 435706828",
       },
     ],
   },
