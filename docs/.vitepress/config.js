@@ -99,7 +99,7 @@ export default {
       text: "编辑此页",
     },
     footer: {
-      copyright: `MIT License Copyright ©️ 2023-present Vben`
+      copyright: `MIT License Copyright ©️ 2024-present Vben`
     }
   },
 };
