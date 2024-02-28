@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Vben Admin
   text: 一个开箱即用前端框架
-  tagline: 采用Monorepo，分离组件样式逻辑，更通用的公共逻辑，降低组件开发的耦合。
+  tagline: 采用Turborepo，分离组件样式逻辑，更通用的公共逻辑，降低组件开发的耦合。
   image:
     src: /vben.svg
     alt: vben logo
