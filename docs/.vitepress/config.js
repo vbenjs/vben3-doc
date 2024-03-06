@@ -100,6 +100,6 @@ export default {
     },
     footer: {
       copyright: `MIT License Copyright ©️ 2024-present Vben`
-    }
+    },
   },
 };
