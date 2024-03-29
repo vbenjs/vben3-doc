@@ -16,6 +16,13 @@ const nav = [
     ],
   },
   {
+    text: "集成",
+    items: [
+      { text: '图标', link: '/packages/vbenComponent/icons'},
+      { text: '测试', link: '/packages/vbenComponent/test'}
+    ]
+  },
+  {
     text: "社区",
     items: [
       {
