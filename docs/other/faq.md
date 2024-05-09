@@ -1,5 +1,36 @@
 # 常见问题
 
+## 
+
+```bash
+# Whether to open mock
+VITE_USE_MOCK = true
+
+# public path
+VITE_PUBLIC_PATH = /
+
+# Cross-domain proxy, you can configure multiple
+# Please note that no line breaks
+VITE_PROXY = [["/basic-api","http://localhost:3000"]]
+# VITE_PROXY=[["/api","https://vvbin.cn/test"]]
+
+# Whether to enable https and http2 in the development environment
+# it will greatly optimize the loading speed at the first startup
+# 是否在开发环境开启 https 和 http2（开启后将大幅优化首次启动时加载速度）
+VITE_USE_HTTPS = true
+
+# Delete console
+VITE_DROP_CONSOLE = false
+
+# Basic interface address SPA
+VITE_GLOB_API_URL = basic-api
+```
+
+这里配置的 `VITE_PROXY` 以及 `VITE_GLOB_API_URL`， /api 需要是唯一的，不要和接口已有的名字冲突。
+
+如果你的接口是 http://localhost:3000/api 之类的，请考虑将 VITE_GLOB_API_URL=/xxxx 换成别的名字。
+
+
 ## 项目别名
 
 `/@/` 是 `vite` 内配置的别名

@@ -1,6 +1,6 @@
 # 路由
 
-Vben3采用Vuejs官方推荐路由[vue-router](https://router.vuejs.org/)，功能路径位于`packages/router`下。
+Vben3 采用 Vuejs 官方推荐路由[vue-router](https://router.vuejs.org/)，功能路径位于`packages/router`下。
 
 ## 依赖安装
 

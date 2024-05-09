@@ -1,32 +1,26 @@
 # 快速了解
 
-## 功能特性
+了解自己使用的或者想使用的工具特性很有必要，因为每个人的用途和想法都不同，可能是工作需要，也可能以学习为目的...
 
-### :jigsaw: 框架无关
+## 🍒 Features
 
-vben3不与任何框架深度集成，开发者可以选择自己中意的框架进行开发:smiling_face_with_three_hearts:。
+### :rocket: 快速开发
 
-默认情况下，vben3的示例demo采用[Naive UI](https://www.naiveui.com/zh-CN/light)框架进行编写。
+本项目使用 Monorepo 方式管理，这意味着在新开项目的时候，可以一定程度上减少重复造轮子（~~相应的增加学(hua)习(shui)的时间~~），但是采用本框架的时候需要自行调研这轮子用着顺不顺手以及会不会用，还有团队的接受程度等。
+
+本着框架无关的原则，Vben3 不与任何框架深度集成，开发者可以选择自己中意的框架进行开发:smiling_face_with_three_hearts:。
+
+并不是所有的项目都需要使用该种方式管理，就像不是所有项目都必须使用微服务一样。
 
 ### :herb: Turborepo架构
 
 采用比Monorepo更优秀的Turborepo架构，提升构建体验:sunglasses:
 
-::: info
+:::info 提示
 点击 [此处](https://turbo.build/repo/docs/core-concepts/monorepos) 查看Turborepo对Monorepo的优势
 :::
 
-### :rocket: 快速开发
-
-每个开发者都有自己用的习惯或顺手的轮子进行快速开发。
-
-在vben3里，我们将轮子与业务彻底解耦，开发者可以引入自己熟悉的轮子或者直接引用vben3封装完成的轮子进行快速开发，从而大大节省时间和精力:heart_eyes:。
-
-::: details
-但是，任何轮子都需要时间进行学习，我们将vben3的框架工具类在本文档进行详尽编写，任何你觉得有疑问的地方都可以先查询本文档:thinking:。
-:::
-
-## 内置功能
+## 📁 目录结构
 
 vben3内置功能存放在`packages`目录下：
 
@@ -48,16 +42,7 @@ vben3内置功能存放在`packages`目录下：
   ┣━ 📁grid-layouts ------------ 存放布局相关工具类
 ```
 
-## 技术选型
-
-采用技术以及版本号清单……
-
-- Vite
-- TypeScript
-- pnpm & monorepo
-- 其它
-
-## 浏览器支持
+## 🌐 浏览器支持
 
 **本地开发** 推荐使用最新版的 `Chrome` 浏览器，**不支持**`Chrome 80`以下版本。
 
