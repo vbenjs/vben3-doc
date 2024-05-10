@@ -108,17 +108,21 @@ export default {
   title: "Vben Admin 3",
   description: "Vben Admin 3 Doc",
   base: "/vben3-doc/",
-  repo: "vbenjs/vben3-doc",
+  head: [['link', {rel: 'icon', href: '/vben3-doc/vben.png'}]],
   ignoreDeadLinks: true,
 
   markdown: {
     lineNumbers: true
   },
+  
   lastUpdated: true,
   outDir: "../public",
   themeConfig: {
     logo: "/vben.svg",
     darkModeSwitchLabel: "Dark",
+    outline: {
+      label: "本文目录"
+    },
     search: {
       provider: 'local'
     },
@@ -127,7 +131,7 @@ export default {
     socialLinks: [{ icon: "github", link: "https://github.com/vbenjs/vben3" }],
     editLink: {
       pattern: "https://github.com/vbenjs/vben3-doc/edit/master/docs/:path",
-      text: "编辑此页",
+      text: "帮助完善本页！",
     },
     footer: {
       copyright: `MIT License Copyright ©️ 2024-present Vben`
