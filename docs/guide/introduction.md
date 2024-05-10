@@ -1,42 +1,27 @@
 # vben admin 后台管理系统
 
-## 简介
+## 👀 简介
 
-[Vben3](https://github.com/vbenjs/vben3) 是一个基于 [Vue3.0](https://github.com/vuejs/core)、[Vite](https://github.com/vitejs/vite)、 [Ant-Design-Vue](https://www.antdv.com/components/overview-cn)、[TypeScript](https://www.typescriptlang.org/) 的后台解决方案，采用 [Monorepo](https://monorepo.tools/) 管理源代码仓库，目标是为开发中大型项目提供开箱即用的解决方案。包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能。项目会使用前端较新的技术栈，可以作为项目的启动模版，以帮助你快速搭建企业级中后台产品原型。也可以作为一个示例，用于学习 `vue3`、`vite`、`ts` 等主流技术。该项目会持续跟进最新技术，并将其应用在项目中。
+语言在体验面前总是那么的苍白无力：https://vben.mufei88.com/
 
-## 环境准备
+## ✍🏻 知识准备 & 技术栈
 
-在本文档开始之前，默认您的电脑已经安装了以下工具：
+博观而约取，厚积而薄发，欲画竹，必先成竹在胸矣。
 
-- [Git](https://git-scm.com)
-- [NodeJs 16.x +](https://nodejs.org/en)
-- 自己喜欢的 IDE
-
-:::warning 注意
-NodeJs 推荐 16.x 版本以上，如果您的本地需要安装不同版本的 NodeJs，请考虑使用 nvm 来管理。
-:::
-
-## 知识准备
-
-本项目需要一定前端基础知识，请确保掌握 Vue 的基础知识，以便能处理一些常见的问题。建议在开发前了解/学习以下内容，这对项目理解和开发非常有帮助:
-
-- [Vue3 文档](https://vuejs.org/)
-- [Vue-RFCS](https://github.com/vuejs/rfcs)
-- [Vue2 迁移到 3](https://v3-migration.vuejs.org/)
+- [Vue3](https://vuejs.org/)
+- [Vite5](https://cn.vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Vue-router](https://router.vuejs.org/)
-- [Ant-Design-Vue](https://www.antdv.com/components/overview-cn)
-- [Es6](https://es6.ruanyifeng.com/)
-- [Vitejs](https://vitejs.dev/)
-- [WindiCss](https://windicss.netlify.app/)
+- [Naive UI](https://www.naiveui.com/)
+- [pnpm](https://pnpm.io/)
+- [Turborepo](https://turbo.build/repo/docs)
 
 ::: warning 注意
 
-本文档不属于入门指南，不会事无巨细的指导你如何进行开发，所以请确保你了解一定的前端工程化相关的知识，我们会斟酌提取与本项目相关的一些知识进行说明，并会附上项目所使用的框架的源链接，如果你对所使用的包不甚了解，建议你进入相关源文档进行入门学习。
+编程应该是快乐的，尤其是做开源的时候，但是这种快乐往往需要自己去发现。本文档虽然不会事无巨细的指导你如何进行开发，但是会尽量把一些相关知识简单介绍一下，或是把附上相关的源链接以供读者查看。如果您可以补充项目文档的的不足之处，非常欢迎您的 [PR](https://docs.github.com/en/pull-requests)。
 
 :::
 
-## vite 插件推荐
+## 🍉 vite 插件推荐
 
 如果这些插件对你有帮助，可以给一个 star 支持下！
 
@@ -48,20 +33,14 @@ NodeJs 推荐 16.x 版本以上，如果您的本地需要安装不同版本的 
 - [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression) - 用于打包输出`.gz`|`.br`文件
 - [vite-plugin-svg-icons](https://github.com/vbenjs/vite-plugin-svg-icons) - 快速生成 `svg sprite`
 
-## 贡献文档
+## 💖 贡献文档
 
-- 中文文档地址为 [vben3](https://github.com/vbenjs/vben3-doc)，采用 Vitepress 开发。如发现文档有误，欢迎提 pr 帮助我们改进。
-- 英文文档暂时没有时间来写，欢迎有时间的小伙伴来帮忙补充英文文档！👉 [加入我们](/other/follow)。
+只要人人都献出一点愛，世界将变成美好的人间。
 
-如需本地运行文档，请拉取文档仓库源代码到本地并启动。
+- [Vben3](https://github.com/vbenjs/vben3) 还在持续更新中，准备将项目做得更加完善、好用。如果您喜欢本项目，希望它变得更好，可以多提供一些好的 idea 或者 pr。
+- [Vben3 文档](https://github.com/vbenjs/vben3-doc) 采用 Vitepress 构建。欢迎英语好的小伙伴帮忙补充英文文档！也欢迎提 PR 帮助我们改进。
 
-```bash
-# vben3 文档源码
-git clone https://github.com/vbenjs/vben3-doc
+👉 点击下方链接一起 ~~学(🫱)习(🐟)进(hua)步(shui)~~ 呀~
 
-# 安装依赖
-pnpm i
-
-# 运行文档
-pnpm docs:dev
-```
+- KOOK：[https://kook.top/6ZPFKi](https://kook.top/6ZPFKi)
+- QQ 群：435706828
