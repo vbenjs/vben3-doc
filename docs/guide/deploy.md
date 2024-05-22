@@ -31,6 +31,8 @@ npm i -g pnpm
 pnpm i
 # 以开发模式启动项目
 pnpm dev
+# 可只选择启动admin
+pnpm dev --filter admin
 ```
 
 :::danger 注意
